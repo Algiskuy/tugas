@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabut</title>
+    <style>
+      select {
+        width: 185px;
+      }
+      .kirim {
+        width: 185px;
+      }
+      .rama {
+          margin-left: 25px;
+          margin-top: 25px;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rama">
+      <p><strong>Biodata</strong></p>
+      <label for="Nama">Nama</label>
+      <br />
+      <input type="text" id="Nama" /><br />
+      <br />
+      <label for="jeniskelamin">Jenis Kelamin</label>
+      <br />
+      <select>
+        <option>pilih</option>
+        <option>Pria</option>
+        <option>Wanita</option>
+      </select>
+      <p>Status</p>
+      <input type="radio" id="menikah" name="status" /><label for="menikah"
+        >Menikah</label
+      >
+      <input type="radio" id="lajang" name="status" /><label for="lajang"
+        >Lajang</label
+      >
+      <p>Makanan Kesukaan</p>
+      <input type="checkbox" id="mie ayam" /><label for="mie ayam"
+        >Mie Ayam</label
+      >
+      <input type="checkbox" id="bakso" /><label for="bakso">Bakso</label>
+      <input type="checkbox" id="ayamgeprek" /><label for="ayamgeprek"
+        >Ayam Geprek</label
+      >
+      <p>Minuman Kesukaan</p>
+      <input type="checkbox" id="teh" /><label for="teh">Teh</label>
+      <input type="checkbox" id="kopi" /><label for="kopi">Kopi</label>
+      <input type="checkbox" id="susu" /><label for="susu">Susu</label>
+      <br />
+      <p><input class="kirim" type="button" value="kirim" /></p>
+    </div>
+  </body>
+</html>
