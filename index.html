@@ -4,56 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabut</title>
-    <style>
-      select {
-        width: 185px;
-      }
-      .kirim {
-        width: 185px;
-      }
-      .rama {
-          margin-left: 25px;
-          margin-top: 25px;
-      }
-      }
-    </style>
+    <title>Tugas ke1</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="rama">
-      <p><strong>Biodata</strong></p>
+      <div class="awal">
+      <p><h1>Daftar</h1></p>
+    </div>
       <label for="Nama">Nama</label>
       <br />
       <input type="text" id="Nama" /><br />
       <br />
       <label for="jeniskelamin">Jenis Kelamin</label>
       <br />
+      <!-- <input type="search" name="pilih" placeholder="pilih" /> -->
       <select>
-        <option>pilih</option>
+        <option></option>
         <option>Pria</option>
         <option>Wanita</option>
       </select>
-      <p>Status</p>
+      <p>Pesan (milih satu)</p>
       <input type="radio" id="menikah" name="status" /><label for="menikah"
-        >Menikah</label
-      >
+        >Paket 1
+      </label>
+      <input type="radio" id="menikah" name="status" /><label for="menikah"
+        >Paket 2
+      </label>
+      <input type="radio" id="menikah" name="status" /><label for="menikah"
+        >Paket 3
+      </label>
       <input type="radio" id="lajang" name="status" /><label for="lajang"
-        >Lajang</label
+        >Paket 4</label
       >
-      <p>Makanan Kesukaan</p>
-      <input type="checkbox" id="mie ayam" /><label for="mie ayam"
-        >Mie Ayam</label
-      >
-      <input type="checkbox" id="bakso" /><label for="bakso">Bakso</label>
-      <input type="checkbox" id="ayamgeprek" /><label for="ayamgeprek"
-        >Ayam Geprek</label
-      >
-      <p>Minuman Kesukaan</p>
-      <input type="checkbox" id="teh" /><label for="teh">Teh</label>
-      <input type="checkbox" id="kopi" /><label for="kopi">Kopi</label>
-      <input type="checkbox" id="susu" /><label for="susu">Susu</label>
+      <div class="paket12">
+        <div class="satu">
+          <p>Paket 1</p>
+          <!-- <input type="radio" id="Paket1" name="status" /><label for="Paket1"> -->
+            <ul>
+              <li>Ayam bakar</li>
+              <li>Nasi</li>
+              <li>Plecing + lalapan + sambal Tilawang</li>
+              <li>Teh manis</li>
+            </ul></label
+          >
+        </div>
+        <div class="dua">
+          <p>Paket 2</p>
+          <!-- <input type="radio" id="Paket2" name="status" /><label for="Paket2"> -->
+            <ul>
+              <li>Chiken Crispy</li>
+              <li>Nasi</li>
+              <li>Plecing + lalapan + sambal goang</li>
+              <li>Teh manis</li>
+            </ul></label
+          >
+        </div>
+      </div>
+      <div class="paket34">
+        <div class="tiga">
+          <p>Paket 3</p>
+          <!-- <input type="radio" id="Paket3" name="status" /><label for="Paket3"> -->
+            <ul>
+              <li>Magelangan</li>
+              <li>Tahu + tempe</li>
+              <li>Plecing + lalapan + sambal cocol</li>
+              <li>Teh manis</li>
+            </ul></label
+          >
+        </div>
+        <div class="empat">
+          <p>Paket 4</p>
+          <!-- <input type="radio" id="Paket3" name="status" /><label for="Paket3"> -->
+            <ul>
+              <li>Magelangan</li>
+              <li>Tahu + tempe</li>
+              <li>Plecing + lalapan + sambal cocol</li>
+              <li>Teh manis</li>
+            </ul></label
+          >
+        </div>
+      </div>
       <br />
       <p><input class="kirim" type="button" value="kirim" /></p>
     </div>
+      <!-- <p>Minuman Kesukaan</p>
+      <input type="checkbox" id="teh" /><label for="teh">Teh</label>
+      <input type="checkbox" id="kopi" /><label for="kopi">Kopi</label>
+      <input type="checkbox" id="susu" /><label for="susu">Susu</label> -->
+      
   </body>
 </html>

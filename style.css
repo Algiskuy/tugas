@@ -1,0 +1,57 @@
+body {
+  background-image: url(5.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center; */
+  margin: auto;
+}
+
+div.rama {
+  /* border: 2px solid black; */
+  padding: 10px;
+  width: max-content;
+  margin: 100px auto;
+  /* background-image: url(11.jpg); */
+  background-color: rgba(99, 45, 45, 0.884);
+}
+div.awal {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+div.paket12 {
+  display: flex;
+}
+div.satu {
+  border: 1px solid;
+  width: 100%;
+  margin-right: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+div.dua {
+  border: 1px solid;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+div.paket34 {
+  display: flex;
+  margin-top: 10px;
+}
+div.tiga {
+  border: 1px solid;
+  width: 100%;
+  margin-right: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+div.empat {
+  border: 1px solid;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.kirim {
+  width: 50%;
+}
